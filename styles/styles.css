@@ -96,7 +96,7 @@ ul {
     margin-top: 8vh;
     padding: 15px;
     min-height: 100%;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 .main__title {
@@ -133,7 +133,7 @@ ul {
 
 .info__zone {
     padding:15px;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 .info__zone h2 {
