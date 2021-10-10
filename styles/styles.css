@@ -26,12 +26,13 @@ body {
     font-family: 'EB Garamond', serif;
     width: 100%;
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    overflow-x: hidden; 
 }
 
 /* Nav bar */
 
-.header {
+.nav {
     background-color: rgba(255, 255, 255, 0.9);
     min-height: 8vh;
     position: fixed;
@@ -40,7 +41,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    overflow-wrap: break-word;
     
 }
 
@@ -52,38 +52,55 @@ ul {
 }
 
 
-.header__ul {
-    font-size: 14px;
+.nav__ul {
     font-weight: bold;
-    display: none;
+    position: absolute;
+    right: 0;
+    top: 12vh;
+    height: 50vh;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform 0.3s ease-in;
+}
+
+.nav-active {
+    transform: translate(0%);
+}
+
+.nav__ul li {
+    font-size: 18px;
+    padding: 10px 5px 30px 10px;
     
 }
 
-.header__ul li {
-    padding: 4px;
-    
-}
-
-.header__ul a:link,
-.header__ul a:visited {
+.nav__ul a:link,
+.nav__ul a:visited {
     color: #F52401;
     text-decoration: none;
     
 }
 
-.header__ul a:hover {
+.nav__ul a:hover {
     color:#000;
 }
 
-.header__burger {
+/*Burger*/
+
+.nav__burger {
     padding: 10px;
+    
 }
 
-.burger__line {
-    width: 25px;
-    height: 4px;
+.burger__line1,
+.burger__line2,
+.burger__line3 {
+    width: 24px;
+    height: 3px;
     margin: 5px;
-    border-radius: 5px;
     background-color: #000
 }
 
@@ -101,7 +118,7 @@ ul {
 .main__title {
     background-image: url(../images/fondo-titulo.jpg);
     background-size: cover;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,12 +171,13 @@ ul {
 }
 
 .container__map {
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    padding: 15px;
 }
 
 .container__map h2 {
@@ -223,29 +241,28 @@ ul {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
 
-    /*Header tablet*/
+    /*Nav tablet*/
 
-    .header {
-        display: flex;
-        justify-content: space-around;
-    }    
+    
 
-
-    .header__img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__ul{
-        display: flex;
-        font-size: 22px;
-        gap: 50px;
-        align-items: center;   
-    }
-
-    .header__burger {
+    .nav__burger {
         display: none;
+    }
+
+    .nav__ul {
+    position: relative;
+    right: 50%;
+    top: 4vh;
+    height: 5vh;
+    width: 45%;
+    background-color: initial;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .nav__ul li {
+        font-size: 20px;
     }
 
     /*Main Tablet*/
@@ -297,16 +314,7 @@ ul {
 
     /*header desktop*/
 
-    .header {
-        justify-content: space-around;
-    }
-
-    .header__ul li {
-        width: 100px;
-        text-align: center;
-        margin-right: 30px;
-        margin-left: 30px;
-    }
+    
 
     /* Main desktop*/
 
