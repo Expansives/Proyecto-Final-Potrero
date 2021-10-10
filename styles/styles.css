@@ -40,7 +40,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
     
 }
 
@@ -60,9 +60,8 @@ ul {
 }
 
 .header__ul li {
-    background-color: #000;
-    border-radius: 10px;
     padding: 4px;
+    text-shadow: 1px 1px #000;
 }
 
 .header__ul a:link,
@@ -96,7 +95,7 @@ ul {
     margin-top: 8vh;
     padding: 15px;
     min-height: 100%;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
 }
 
 .main__title {
@@ -133,7 +132,7 @@ ul {
 
 .info__zone {
     padding:15px;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
 }
 
 .info__zone h2 {
@@ -179,7 +178,7 @@ ul {
     justify-content: space-around;
     font-size: 15px;
     font-weight: bold;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
 }
 
 .footer__links a:link,
@@ -225,7 +224,7 @@ ul {
 
     .header__ul{
         display: flex;
-        font-size: 20px;
+        font-size: 22px;
         gap: 50px;
         align-items: center;   
     }
