@@ -32,7 +32,7 @@ body {
 /* Nav bar */
 
 .header {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     min-height: 8vh;
     position: fixed;
     top: 0;
@@ -61,7 +61,7 @@ ul {
 
 .header__ul li {
     padding: 4px;
-    text-shadow: 1px 1px #000;
+    
 }
 
 .header__ul a:link,
@@ -72,7 +72,7 @@ ul {
 }
 
 .header__ul a:hover {
-    color:#fff
+    color:#000;
 }
 
 .header__burger {
@@ -142,9 +142,8 @@ ul {
 }
 
 .info__zone p {
-    font-size: 20px;
-    color: #000;
-    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .bar {
@@ -157,13 +156,25 @@ ul {
 .container__map {
     height: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
+}
+
+.container__map h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.container__map p {
+    font-size: 25px;
+    color: #fff;
 }
 
 .map {
     max-width: 75%;
-    height: auto;   
+    height: 300px;   
 }
 
 /*Footer*/
@@ -186,6 +197,10 @@ ul {
     color: #F52401;
     text-decoration: none;
     padding: 4px;
+}
+
+.footer__links a:hover {
+    color:#000;
 }
 
 /* For mobile phones: */
@@ -254,13 +269,15 @@ ul {
     }
     
     .info__zone p {
-        font-size: 18px;
+        font-size: 24px;
+        
     }
 
     /*footer tablet */
     .footer__links {
         font-size: 20px;
     }
+    
 }
   
 @media only screen and (min-width: 768px) {
@@ -297,10 +314,7 @@ ul {
         font-size: 50px;  
     }
 
-    .info__zone p {
-        font-size: 24px;
-        
-    }
+    
 }
 
 
