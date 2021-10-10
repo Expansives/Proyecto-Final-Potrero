@@ -296,6 +296,11 @@ ul {
     .main__title h1 {
         font-size: 50px;  
     }
+
+    .info__zone p {
+        font-size: 24px;
+        
+    }
 }
 
 
