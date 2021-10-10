@@ -40,7 +40,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    word-break: break-all;
+    overflow-wrap: break-word
     
 }
 
@@ -96,7 +96,7 @@ ul {
     margin-top: 8vh;
     padding: 15px;
     min-height: 100%;
-    word-break: break-all;
+    overflow-wrap: break-word
 }
 
 .main__title {
@@ -133,7 +133,7 @@ ul {
 
 .info__zone {
     padding:15px;
-    word-break: break-all;
+    overflow-wrap: break-word
 }
 
 .info__zone h2 {
@@ -156,6 +156,7 @@ ul {
 }
 
 .container__map {
+    height: 300px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -178,7 +179,7 @@ ul {
     justify-content: space-around;
     font-size: 15px;
     font-weight: bold;
-    word-break: break-all; 
+    overflow-wrap: break-word
 }
 
 .footer__links a:link,
