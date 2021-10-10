@@ -100,7 +100,7 @@ ul {
 }
 
 .main__title {
-    background-image: url(../images/fondo-titulo1.jpg);
+    background-image: url(../images/fondo-titulo.jpg);
     background-size: cover;
     height: 500px;
     display: flex;
