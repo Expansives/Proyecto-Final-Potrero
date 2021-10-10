@@ -162,8 +162,8 @@ ul {
 }
 
 .map {
-    width: 60vw;
-    height: 60vw;   
+    max-width: 75%;
+    height: auto;   
 }
 
 /*Footer*/
