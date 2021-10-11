@@ -200,7 +200,9 @@ ul {
 
     .nav__ul li {
         font-size: 20px;
+        padding: 0px 15px 10px 5px;
     }
+
 
      /*footer tablet */
     .footer__links {
@@ -223,4 +225,10 @@ ul {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    /* header desktop*/
+
+    .nav__ul li {
+        font-size: 24px;
+    }
 }

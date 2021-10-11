@@ -282,6 +282,7 @@ ul {
 
     .nav__ul li {
         font-size: 20px;
+        padding: 0px 15px 10px 5px;
     }
 
     /*Main Tablet*/
@@ -333,7 +334,9 @@ ul {
 
     /*header desktop*/
 
-    
+    .nav__ul li {
+        font-size: 24px;
+    }
 
     /* Main desktop*/
 
@@ -341,7 +344,6 @@ ul {
         font-size: 50px;  
     }
 
-    
 }
 
 
