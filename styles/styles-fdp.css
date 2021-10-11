@@ -83,7 +83,7 @@ ul {
 
 .nav__ul a:link,
 .nav__ul a:visited {
-    color: #F52401;
+    color: #ff00b5;
     text-decoration: none;
     
 }
@@ -133,13 +133,62 @@ ul {
     overflow-wrap: break-word;
 }
 
+.main__title {
+    background-image: url(../images/fondo-festival.jpg);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+}
 
+.title__h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+
+.main__info {
+    margin-bottom: 80px;
+}
+
+.info__zone {
+    background: linear-gradient(117deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
+    margin: 10px;
+    padding: 15px;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.info__zone h2 {
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.info__zone p {
+    font-size: 22px;
+    color: #fff;
+}
+
+.bar {
+    width: 65px;
+    height: 5px;
+    background-color: #ff00b5;
+    border-radius: 5px;
+}
 
 /*Footer*/
 
 .footer {
     width: 100%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .footer__links { 
@@ -152,7 +201,7 @@ ul {
 
 .footer__links a:link,
 .footer__links a:visited {
-    color: #F52401;
+    color: #ff00b5;
     text-decoration: none;
     padding: 4px;
 }
