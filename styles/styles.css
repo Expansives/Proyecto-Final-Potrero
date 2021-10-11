@@ -101,7 +101,22 @@ ul {
     width: 24px;
     height: 3px;
     margin: 5px;
-    background-color: #000
+    background-color: #000;
+}
+
+/* Burger animation*/
+.nav__burger.open .burger__line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.nav__burger.open .burger__line2 {
+    transform: translateX(-10px);
+    opacity: 0;    
+}
+
+.nav__burger.open .burger__line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+
 }
 
 
@@ -117,14 +132,14 @@ ul {
 
 .main__title {
     background-image: url(../images/fondo-titulo.jpg);
-    background-size: cover;
     height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-
+    background-size: cover;
+    background-position: center;
 }
 
 .title__h1 {

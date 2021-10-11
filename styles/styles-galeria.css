@@ -104,6 +104,20 @@ ul {
     background-color: #000
 }
 
+/* Burger animation*/
+.nav__burger.open .burger__line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.nav__burger.open .burger__line2 {
+    transform: translateX(-10px);
+    opacity: 0;    
+}
+
+.nav__burger.open .burger__line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+
+}
 
 /* main*/
 
