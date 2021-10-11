@@ -30,6 +30,11 @@ body {
     overflow-x: hidden; 
 }
 
+.header {
+    display:none;
+}
+
+
 /* Nav bar */
 
 .nav {
