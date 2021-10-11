@@ -61,7 +61,7 @@ ul {
     font-weight: bold;
     position: absolute;
     right: 0;
-    top: 12vh;
+    top: 9vh;
     height: 50vh;
     width: 50%;
     background-color: rgba(255, 255, 255, 0.9);
@@ -97,7 +97,7 @@ ul {
 
 .nav__burger {
     padding: 10px;
-    
+    margin-bottom: 5px;
 }
 
 .burger__line1,

@@ -39,7 +39,7 @@ body {
 
 .nav {
     background-color: rgba(255, 255, 255, 0.9);
-    min-height: 8vh;
+    min-height: 9vh;
     position: fixed;
     top: 0;
     padding-left: 10px;
@@ -96,7 +96,7 @@ ul {
 
 .nav__burger {
     padding: 10px;
-    
+    margin-bottom: 5px;
 }
 
 .burger__line1,
