@@ -128,7 +128,6 @@ ul {
 #main {
     background-color: #000;
     margin-top: 8vh;
-    padding: 15px;
     min-height: 100%;
     overflow-wrap: break-word;
 }
@@ -153,17 +152,24 @@ ul {
 
 .main__info {
     margin-bottom: 80px;
+    padding: 20px;
 }
 
 .info__zone {
-    background: linear-gradient(117deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
-    margin: 10px;
+    background: linear-gradient(17deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
     padding: 15px;
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+}
+
+.info__img{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info__zone h2 {
