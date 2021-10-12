@@ -246,6 +246,10 @@ ul {
 
     /*Main*/
 
+    .main__title {
+        height: 500px;
+    }
+    
     .gallery {
         height: 350px;
     }
