@@ -164,11 +164,15 @@ ul {
 .main__info {
     background-color: #C71700;
     margin-bottom: 80px;
+    width: 100%;
+    height: auto;
 }
 
 .info__zone {
     padding:15px;
     overflow-wrap: break-word;
+    width: 100%;
+    height: auto;
 }
 
 .info__zone h2 {

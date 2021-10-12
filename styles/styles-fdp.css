@@ -132,25 +132,28 @@ ul {
     overflow-wrap: break-word;
 }
 
-.main__title {
+.main__picture {
     background-image: url(../images/fondo-festival.jpg);
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 50px;
     background-size: cover;
     background-position: center;
+    padding: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.title__h1 {
-    color: #fff;
-    font-size: 36px;
-    margin-bottom: 3px;
+
+.main__picture img {
+    width: 300px;
+    height: auto;
 }
+
 
 .main__info {
+    width: 100%;
+    height: auto;
     margin-bottom: 80px;
     padding: 20px;
 }
@@ -158,6 +161,9 @@ ul {
 .info__zone {
     background: linear-gradient(17deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
     padding: 15px;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    height: auto;
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
@@ -165,12 +171,6 @@ ul {
     border-radius: 15px;
 }
 
-.info__img{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .info__zone h2 {
     font-size: 30px;
@@ -188,6 +188,19 @@ ul {
     height: 5px;
     background-color: #ff00b5;
     border-radius: 5px;
+}
+
+.main__video {
+    padding: 15px;
+    margin: 20px 0px 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__video iframe {
+    width: 100%;
 }
 
 /*Footer*/
@@ -238,15 +251,13 @@ ul {
 
     /*Nav tablet*/
 
-    
-
     .nav__burger {
         display: none;
     }
 
     .nav__ul {
     position: relative;
-    right: 50%;
+    right: 55%;
     top: 4vh;
     height: 5vh;
     width: 45%;
@@ -261,6 +272,24 @@ ul {
         padding: 0px 15px 10px 5px;
     }
 
+    /*Main*/
+
+    .main__picture img {
+        width: 350px;
+    }
+
+    .main__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info__zone {   
+        width: 50%;
+        background: linear-gradient(90deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
+
+    }
 
      /*footer tablet */
     .footer__links {
@@ -286,7 +315,43 @@ ul {
 
     /* header desktop*/
 
+    .nav__ul {
+        right: 50%;
+    }
     .nav__ul li {
         font-size: 24px;
+    }
+
+    /* main desktop*/
+
+    .main__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info__zone {   
+        width: 40%;
+        height: 400px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    /* .info__zone backgrounds color*/
+    .desktop-zone1 {
+        background: linear-gradient(45deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
+    }
+
+    .desktop-zone2 {
+        background: linear-gradient(315deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
+    }
+
+    .desktop-zone3 {
+        background: linear-gradient(135deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
+    }
+
+    .desktop-zone4 {
+        background: linear-gradient(225deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
     }
 }
