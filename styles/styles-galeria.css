@@ -162,15 +162,13 @@ ul {
     padding: 0 6px;
     margin-bottom: 10px;
     width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: auto;
 }
 
 .gallery a img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*Footer*/
@@ -221,8 +219,6 @@ ul {
 
     /*Nav tablet*/
 
-    
-
     .nav__burger {
         display: none;
     }
@@ -249,9 +245,8 @@ ul {
     .main__title {
         height: 500px;
     }
-    
     .gallery {
-        height: 350px;
+        height: 40vw;
     }
 
      /*footer tablet */
