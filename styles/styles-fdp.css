@@ -89,7 +89,7 @@ ul {
 }
 
 .nav__ul a:hover {
-    color:#000;
+    color:rgba(1,0,245,0.96);;
 }
 
 /*Burger*/
@@ -179,7 +179,7 @@ ul {
 }
 
 .info__zone p {
-    font-size: 22px;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -226,7 +226,7 @@ ul {
 }
 
 .footer__links a:hover {
-    color:#000;
+    color:rgba(1,0,245,0.96);
 }
 
 /* For mobile phones: */
@@ -353,5 +353,9 @@ ul {
 
     .desktop-zone4 {
         background: linear-gradient(225deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
+    }
+
+    .main__video iframe {
+        width: 60%;
     }
 }

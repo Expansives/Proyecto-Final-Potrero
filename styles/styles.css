@@ -274,7 +274,7 @@ ul {
 
     .nav__ul {
     position: relative;
-    right: 50%;
+    right: 55%;
     top: 4vh;
     height: 5vh;
     width: 45%;
@@ -337,6 +337,10 @@ ul {
     .col-12 {width: 100%;}
 
     /*header desktop*/
+
+    .nav__ul {
+        right: 50%;
+    }
 
     .nav__ul li {
         font-size: 24px;
