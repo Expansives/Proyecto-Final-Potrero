@@ -133,7 +133,7 @@ ul {
 }
 
 .main__title {
-    height: 600px;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,11 +242,12 @@ ul {
 
     /*Main*/
 
-    .main__title {
-        height: 500px;
-    }
     .gallery {
         height: 40vw;
+    }
+
+    .gallery-large{
+        min-height: 400px;
     }
 
      /*footer tablet */
@@ -284,7 +285,12 @@ ul {
 
     /* main desktop*/
 
+
     .gallery {
         height: 40vh;
+    }
+
+    .gallery-large{
+        min-height: 500px;
     }
 }
