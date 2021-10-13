@@ -201,6 +201,7 @@ ul {
 
 .main__video iframe {
     width: 100%;
+    border: none;
 }
 
 /*Footer*/
