@@ -89,7 +89,7 @@ ul {
 }
 
 .nav__ul a:hover {
-    color:rgba(1,0,245,0.96);;
+    color:#000;;
 }
 
 /*Burger*/
@@ -104,7 +104,7 @@ ul {
     width: 24px;
     height: 3px;
     margin: 5px;
-    background-color: #000
+    background-color: #ff00b5;
 }
 
 /* Burger animation*/
@@ -159,7 +159,7 @@ ul {
 }
 
 .info__zone {
-    background: linear-gradient(17deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
+    background: linear-gradient(90deg, rgba(255,0,181,1) 0%, rgba(255,0,181,0.3253676470588235) 81%);
     padding: 15px;
     margin: 0px 0px 10px 0px;
     width: 100%;
@@ -169,6 +169,7 @@ ul {
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+    text-align: center;
 }
 
 
@@ -227,7 +228,7 @@ ul {
 }
 
 .footer__links a:hover {
-    color:rgba(1,0,245,0.96);
+    color:#000;
 }
 
 /* For mobile phones: */
@@ -283,13 +284,18 @@ ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+    }
+
+    .zone2 {
+        align-self: center;
+    }
+
+    .zone3 {
+        align-self: end;
     }
     
     .info__zone {   
         width: 50%;
-        background: linear-gradient(90deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);
-
     }
 
      /*footer tablet */
@@ -339,23 +345,7 @@ ul {
         margin: 10px 10px 10px 10px;
     }
 
-    /* .info__zone backgrounds color*/
-    .desktop-zone1 {
-        background: linear-gradient(45deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
-    }
-
-    .desktop-zone2 {
-        background: linear-gradient(315deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
-    }
-
-    .desktop-zone3 {
-        background: linear-gradient(135deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
-    }
-
-    .desktop-zone4 {
-        background: linear-gradient(225deg, rgba(255,0,181,1) 25%, rgba(1,0,245,0.96) 50%, rgba(45,250,224,0.98) 75%);    
-    }
-
+    
     .main__video iframe {
         width: 60%;
     }

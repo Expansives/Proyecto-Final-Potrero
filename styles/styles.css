@@ -105,7 +105,7 @@ ul {
     width: 24px;
     height: 3px;
     margin: 5px;
-    background-color: #000;
+    background-color: #F52401;
 }
 
 /* Burger animation*/
@@ -126,12 +126,9 @@ ul {
 
 /* main*/
 
-#main {
-    background-color: #000;
+.main {
     margin-top: 8vh;
-    padding: 15px;
     min-height: 100%;
-    overflow-wrap: break-word;
 }
 
 .main__title {
@@ -154,7 +151,7 @@ ul {
 
 .title__p {
     color: #F52401;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
 }
@@ -173,6 +170,10 @@ ul {
     overflow-wrap: break-word;
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .info__zone h2 {
@@ -291,7 +292,6 @@ ul {
 
     /*Main Tablet*/
 
-
     .main__title h1 {
         font-size: 42px;  
     }
@@ -305,8 +305,7 @@ ul {
     }
 
     .info__zone h2 {
-        font-size: 26px;
-        
+        font-size: 30px;
     }
     
     .info__zone p {
@@ -352,6 +351,10 @@ ul {
         font-size: 50px;  
     }
 
+    .info__zone {
+        gap: 20px;
+
+    }
 }
 
 

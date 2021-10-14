@@ -83,13 +83,13 @@ ul {
 
 .nav__ul a:link,
 .nav__ul a:visited {
-    color: #000;
+    color: #d4af17;
     text-decoration: none;
     
 }
 
 .nav__ul a:hover {
-    color:#d4af17;
+    color:#000;
 }
 
 /*Burger*/
@@ -188,13 +188,13 @@ ul {
 
 .footer__links a:link,
 .footer__links a:visited {
-    color: #000;
+    color: #d4af17;
     text-decoration: none;
     padding: 4px;
 }
 
 .footer__links a:hover {
-    color:#d4af17;
+    color:#000;
 }
 
 /* For mobile phones: */
