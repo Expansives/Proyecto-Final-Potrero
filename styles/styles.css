@@ -193,6 +193,10 @@ ul {
     border-radius: 5px;
 }
 
+.empty_space {
+    display: none;
+}
+
 .container__map {
     height: 400px;
     display: flex;
@@ -352,7 +356,12 @@ ul {
 
     .info__zone {
         gap: 20px;
+    }
 
+    .empty_space {
+        display: initial;
+        height: 400px;
+        background-color: #000;
     }
 }
 
