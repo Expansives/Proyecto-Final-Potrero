@@ -346,6 +346,7 @@ ul {
 
     #carouselExampleControls {
         width: 80%;
+        max-height: 800px;
     }
 
     .main__video iframe {
